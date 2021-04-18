@@ -37,6 +37,4 @@ public class InfluencerServiceImpl implements InfluencerService{
     public void delete(Long id) {
         influencerRepository.deleteById(id);
     }
-
-
 }

@@ -29,8 +29,7 @@ public class InfluencerController {
 
     @GetMapping("/{influencerId}")
     public Influencer getById(@PathVariable(name = "influencerId") Long influencerId) {
-        Influencer x = influencerService.getById(influencerId);
-        return x;
+        return influencerService.getById(influencerId);
     }
 
     @PostMapping("/")
