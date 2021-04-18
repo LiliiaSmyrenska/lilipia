@@ -1,7 +1,7 @@
 package org.example.dao;
 
 import org.example.controller.model.Influencer;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface InfluencerRepository extends JpaRepository<Influencer, Long> {
+public interface InfluencerRepository extends CrudRepository<Influencer, Long> {
 }
